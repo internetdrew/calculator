@@ -9,40 +9,43 @@
     <title>Calculator</title>
   </head>
   <body>
+    <header>
+      <h1>Give Me Problems, I'll Help You Solve 'Em</h1>
+    </header>
     <div class="calculator">
       <div class="screen">
-        <div class="previous-operand">Test previous</div>
-        <div class="current-operand">Test current</div>
+        <div class="screen-row previous-operand">Test previous</div>
+        <div class="screen-row current-operand">Test current</div>
       </div>
       <div class="button-container">
-        <div class="row">
-          <button class="grey">AC</button>
-          <button class="grey">+/&minus;</button>
+        <div class="row top-row">
+          <button class="grey" id="all-clear">AC</button>
+          <button class="grey" id="plus-minus">+/&minus;</button>
           <button class="grey">%</button>
-          <button class="operand">&divide;</button>
+          <button class="operand" id="divide">&divide;</button>
         </div>
         <div class="row">
           <button>7</button>
           <button>8</button>
           <button>9</button>
-          <button class="operand">&times;</button>
+          <button class="operand" id="multiply">&times;</button>
         </div>
         <div class="row">
           <button>4</button>
           <button>5</button>
           <button>6</button>
-          <button class="operand">&minus;</button>
+          <button class="operand" id="subtract">&minus;</button>
         </div>
         <div class="row">
           <button>1</button>
           <button>2</button>
           <button>3</button>
-          <button class="operand">&plus;</button>
+          <button class="operand" id="add">&plus;</button>
         </div>
         <div class="row">
           <button class="span-two">0</button>
           <button>.</button>
-          <button class="operand">&equals;</button>
+          <button class="operand" id="equals">&equals;</button>
         </div>
       </div>
     </div>
