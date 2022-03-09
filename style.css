@@ -19,7 +19,7 @@ h1 {
 }
 
 .calculator {
-  background-color: black;
+  background-color: #1c1c1c;
   padding: 2.5rem;
 }
 
@@ -63,7 +63,7 @@ h1 {
   font-weight: bold;
   outline: none;
   border: none;
-  background-color: #333;
+  background-color: #505050;
   color: #fff;
 }
 
@@ -72,7 +72,7 @@ h1 {
 }
 
 .row.top-row button {
-  background: lightgray;
+  background: #d4d4d2;
   color: black;
 }
 .row button.operand {
